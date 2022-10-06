@@ -1,3 +1,56 @@
 body {
     display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.logo {
+    background-color: rgb(189, 187, 187);
+    margin: 3px;
+    font-size: xx-large;
+    height: 50px
+}
+
+.navigation {
+    background-color:rgb(189, 187, 187);
+    margin: 3px;
+    justify-content: center;
+    height: 30px
+    
+}
+
+.header {
+    background-color:rgb(189, 187, 187);
+    margin: 3px;
+    font-size: larger;
+    height: 120px
+}
+
+.sidebody {
+   
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+.side {
+
+    background-color:rgb(189, 187, 187);
+    margin: 3px;
+    width: 30%;
+
+
+}
+
+.body {
+
+    background-color:rgb(189, 187, 187);
+    margin: 3px;
+    width: 70%;
+
+} 
+
+.footer {
+    background-color:rgb(189, 187, 187);
+    margin: 3px;
+    justify-content: center;
 }
